@@ -2,12 +2,9 @@ ENV["RACK_ENV"] = "production"
 
 require "./app"
 
-describe "EXIF App" do
+describe "exifchan" do
   def app
     Sinatra::Application
-  end
-
-  it "After upload -> View Latitude" do
   end
 end
 
